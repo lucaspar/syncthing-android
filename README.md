@@ -59,7 +59,7 @@ See our document on privacy: [privacy-policy.md](https://github.com/Catfriend1/s
 
 ## Building
 
-## Prerequisites
+### Prerequisites
 
 If you miss any prerequisite, the shell scripts will abort with an error and tell you what you need to do. In case you like to dive into building directly, you can skip this section and jump directly to "Build instructions".
 
@@ -100,11 +100,11 @@ Make sure, git (or git.exe) is installed and available on the PATH environment v
 "java" should be on the PATH environment variable. Download from Oracle and run the installer. Log off and back on to let the new PATH variable take effect.
 ```
 
-## Build instructions
+### Build instructions
 
 Edit "App_build_and_release.cmd" and set "SKIP_RELEASE_BUILD=1" if you don't need to upload signed releases to Google Play. This will simplify things for you.
 
-### Build on Linux
+#### Build on Linux
 
 A Linux VM, for example running Debian, is recommended to build this.
 
@@ -129,7 +129,7 @@ To clean up all files generated during build, use the following commands:
 ./gradlew clean
 ```
 
-### Build on Windows
+#### Build on Windows
 
 ```bash
 git clone https://github.com/Catfriend1/syncthing-android.git --recursive
